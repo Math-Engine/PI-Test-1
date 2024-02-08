@@ -6,11 +6,11 @@ const PI = fs.readFileSync(path.join(__dirname, `PI_1M.txt`), 'utf8');
 let result = [];
 let temp = 0;
 let result_3_qotn = [];
+let ox = [0, 0];
 
 for (var i = 0; i < 1000; i++) {
   temp = temp + Number(PI[i]);
   result.push(temp);
-  let ox = [0, 0];
   if (temp%3 == 0) {
     result_3_qotn.push("✅");
     ox[0] = ox[0] + 1;
