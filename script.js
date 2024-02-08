@@ -11,9 +11,9 @@ for (var i = 0; i < 1000; i++) {
   temp = temp + Number(PI[i]);
   result.push(temp);
   if (temp%3 == 0) {
-    result_3_qotn.push(":white_check_mark:");
+    result_3_qotn.push("✅");
   }else{
-    result_3_qotn.push(":x:");
+    result_3_qotn.push("❌");
   }
 }
 
