@@ -21,5 +21,5 @@ for (var i = 0; i < 1000; i++) {
 }
 
 execSync(`echo "${JSON.stringify(result)}" >> $GITHUB_STEP_SUMMARY`);
-execSync(`echo "<hr> ${<ul><li>✅: ${ox[0]}</li><li>❌: ${ox[1]}</li></ul>}" >> $GITHUB_STEP_SUMMARY`);
+execSync(`echo "<hr> <ul><li>${✅: ${ox[0]}</li><li>❌: ${ox[1]}</li></ul>}" >> $GITHUB_STEP_SUMMARY`);
 execSync(`echo "<hr> ${JSON.stringify(result_3_qotn)}" >> $GITHUB_STEP_SUMMARY`);
