@@ -13,7 +13,7 @@ for (var i = 0; i < 1000; i++) {
   if (temp%3 == 0) {
     result_3_qotn.push(":white_check_mark:");
   }else{
-    result_3_qotn.push.push(":x:");
+    result_3_qotn.push(":x:");
   }
 }
 
